@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.custom-shape-divider-top-1652786290 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1652786290 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 528px;
+}
+
+.custom-shape-divider-top-1652786290 .shape-fill {
+    fill: hsl(228, 87%, 91%);
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    max-width: 1440px;
+}
+
+.child {
+    margin: 2rem;
+    z-index: 1;
+    border-radius: 1rem;
+    width: 17rem;
+    height: 70vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.image {
+    height: 30%;
+    background: url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#card {
+    padding: 1.3rem;
+    display: block;
+    height: 70%;
+    text-align: center;
+    color: black;
+}
+
+#card h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    height: 2rem;
+}
+#card p {
+
+    height: 5rem;
+    font-size: .8rem;
+    font-weight: 500;
+  color:hsl(227, 4%, 55%);
+}
+
+.plan {
+    border-radius: 5px;
+    display: flex;
+    height: 4rem;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.article {
+    height: 3rem;
+}
+
+.article img {
+    display: block;
+    padding: .5rem;
+    height: 3.7rem;
+}
+
+.article h5 {
+    margin-top: .7rem;
+    height: 1.3rem;
+    font-weight: 700;
+
+}
+
+.href {
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+.btn{
+    height: 4rem;
+    margin-top: 2rem;
+}
+.btn button {
+    height: 2rem;
+    width: 100%;
+    border: none;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    box-shadow: 0px 1px 10px 1px blue;
+}
+.order a{
+    height: 3rem;
+    color:hsl(226, 12%, 72%);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 10px
+}
